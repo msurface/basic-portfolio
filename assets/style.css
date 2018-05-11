@@ -85,20 +85,18 @@ width: 200px;
     border-bottom-color: black;  
 }
 
-#contentbar {
-
-}
-
-.portimages{
-    position: relative;
-}
-
 img {
-    float: left;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    position: relative;
+    word-wrap: break-word; 
 }
 
+.imgtext {
+    word-wrap: break-word;
+    position: absolute;
+}
 
 .footer {
     position: absolute;
