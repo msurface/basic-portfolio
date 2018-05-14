@@ -11,7 +11,6 @@ header {
     border: #cccccc;
     border-width: 0px 0px 500px 0px;
     margin-bottom: 15px;
-    position: relative;
 }
 
 #wrapper {
@@ -53,9 +52,12 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 960px;
-    margin: auto;
+    margin: 20px;
     background-color: #ffffff;
     padding: 0px 20px 20px 20px;
+    border: 5px;
+    border-color: black;
+    
 }
 
 .section h2 {
@@ -85,17 +87,100 @@ width: 200px;
     border-bottom-color: black;  
 }
 
-img {
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    position: relative;
-    word-wrap: break-word; 
+#inline-block {
+    display: inline-block;
+    align-content: center;
 }
 
-.imgtext {
-    word-wrap: break-word;
+.img1{
+    position: relative;
+    margin: 10px;
+}
+
+.text-block1 {
     position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 15%;
+    width: 275px;
+    top: 200px;
+    right: 0px;
+    font-family: georgia, 'Times New roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img2{
+    position: relative;
+    margin: 10px;
+}
+
+.text-block2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 15%;
+    width: 275px;
+    top: 200px;
+    right: 0px;
+    font-family: georgia, 'Times New roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img3 {
+    position: relative;
+    margin: 10px;
+}
+
+.text-block3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 15%px;
+    width: 275px;
+    top: 200px;
+    right: 0px;
+    font-family: georgia, 'Times New roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img4 {
+    Position: relative;
+    margin: 10px;
+}
+
+.text-block4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 15%;
+    width: 275px;
+    top: 200px;
+    right: 0px;
+    font-family: georgia, 'Times New roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img5 {
+    position: relative;
+    margin: 10px;
+
+}
+
+.text-block5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 15%;
+    width: 275px;
+    top: 200px;
+    right: 0px;
+    font-family: georgia, 'Times New roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 .footer {
@@ -107,4 +192,45 @@ img {
     background-color: #4aaaa5;
     border-color: black;
 
+}
+
+label {
+    font-weight: bold;
+    font-size: medium;
+    margin: 5px;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+#fname {
+    width: 96.5%;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 3px;
+    
+}
+
+#email {
+    width: 96.5%;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#message {
+    width: 89%;
+    margin: 5px;
+    padding: 50px;
+    border-radius: 3px;
+    text-align: justify;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    Padding: 15px 20px;
+    margin: 5px;
 }
